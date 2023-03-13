@@ -1,5 +1,13 @@
+ @font-face {
+    font-family: 'rage-regular';
+    src: url('Rage.ttf') format('truetype');
+  }
+
 @layer utilities {
     .content-auto {
       content-visibility: auto;
+    }
+    .font-rage{
+        font-family: 'rage-regular';
     }
   }
