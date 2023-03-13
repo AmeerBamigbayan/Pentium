@@ -950,6 +950,7 @@ tailwind.config = {
       extend: {
         colors: {
           clifford: '#da373d',
+          main: '#ff007a',
         }
       }
     }
