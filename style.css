@@ -13,9 +13,15 @@
     .font-rage{
         font-family: 'rage-regular';
     }
-    .main-color{
-        color: #ff007a;
+    .main-c{
+        background-color: #ff007a;
     }
+    .main-c:hover{
+        color: #ff007a;
+        border-color: #ff007a;
+        background-color: #ff007a;
+    }
+
     .bg-color{
         background-color: #0a0a0a;
     }
@@ -41,4 +47,5 @@
         top: 27rem;
         position: absolute;
       }
+
   }
