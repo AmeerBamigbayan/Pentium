@@ -16,6 +16,9 @@
     .main-c{
         background-color: #ff007a;
     }
+    .main-c2{
+        background-color: #1b1b1b;
+    }
     .main-c:hover{
         color: #ff007a;
         border-color: #ff007a;
