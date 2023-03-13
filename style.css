@@ -19,4 +19,23 @@
     .poppins{
         font-family: 'Poppins';
       }
+      .bg-image{
+        background-image: url(img/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+      }
+      .top-90{
+        top: 330px;
+        position: absolute;
+      }
+      .top-100{
+        top: 370px;
+        position: absolute;
+      }
+
+      .top-c{
+        top: 68%;
+        position: absolute;
+      }
   }
