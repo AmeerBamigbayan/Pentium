@@ -17,6 +17,14 @@
     .main-c{
         background-color: #ff007a;
     }
+    @media screen and (max-width: 1024px) {
+        .main-c{
+            margin-bottom: 10px;
+        }
+        .main-c2{
+            margin-bottom: 10px;
+        }
+    }
     .main-c2{
         background-color: #1b1b1b;
     }
