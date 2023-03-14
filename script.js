@@ -952,6 +952,10 @@ tailwind.config = {
           clifford: '#da373d',
           main: '#ff007a',
           cards: '#1e1e1e',
+        },
+        borderWidth:{
+          15: '15px',
+          16: '16px',
         }
       }
     }
