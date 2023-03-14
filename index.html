@@ -9,12 +9,16 @@
 </head>
 <body class="bg-color bg-image">
    <div>
-      <header class="flex justify-between">
-            <h1 class="font-rage text-white py-10 px-14 text-sm">PENTIUM</h1>
-
+      <header class="justify-between lg:flex lg:justify-between">
+        <div class="flex justify-between items-center ">
+            <h1 class="font-rage text-white py-14 px-8 text-xs lg:py-10 lg:px-14 lg:text-sm">PENTIUM</h1>
+            <div class="px-4 cursor-pointer lg:hidden" id="burger">
+                <svg class="w-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </div>
+        </div>
             <nav>
-                <ul class="flex py-8 px-16 text-white poppins">
-                    <li class="mr-16 border-b-2 border-main"><a href="#">Home</a></li>
+                <ul class=" leading-normal text-2xl py-8 px-8 hidden bg-cards  lg:flex lg:text-lg lg:py-8 lg:px-16 lg:bg-transparent text-white poppins" id="menu">
+                    <li class=" lg:mr-16 lg:border-b-2 lg:border-main"><a href="#">Home</a></li>
                     <li class="mr-16"><a href="#">Services</a></li>
                     <li class="mr-16"><a href="#">About</a></li>
                     <li class="mr-16"><a href="#">Contact Us</a></li>
@@ -25,7 +29,7 @@
       <!---Hero Section Start-->
       <div>
         <!------Sidebar Start-->
-        <div class="fixed top-28">
+        <div class="hidden lg:flex lg:fixed lg:top-28">
         <div class="border-l-4 border-main h-40 absolute left-12"></div>
         <div>
             <svg class="fill-white w-7 absolute left-9 top1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
@@ -106,7 +110,7 @@
         <h1 class="poppins text-white text-5xl font-bold mt-5 mb-2">Services.</h1>
         <p class="bebas text-main text-2xl mb-16">JUST WHAT CAN WE DO?</p>
         <!----Cards-->
-        <div class="flex gap-12">
+        <div class="gap-12 lg:flex lg:gap-12">
             <div class=" flex gap-24 bg-cards px-6 py-12 mb-7">
         <h1 class="text-white poppins text-2xl font-bold">Web Design.</h1>
         <svg width="36" height="35" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -126,7 +130,7 @@
             </svg>
             </div>
     </div>
-        <div class="flex gap-12">
+        <div class="gap-12 lg:flex lg:gap-12">
             <div class=" flex gap-10 bg-cards px-6 py-12 mb-7">
         <h1 class="text-white poppins text-2xl font-bold">Graphics Design.</h1>
         <svg width="36" height="35" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,7 +150,7 @@
             </svg>
             </div>
     </div>
-        <div class="flex gap-12">
+        <div class="gap-12 lg:flex lg:gap-12">
             <div class=" flex gap-12 bg-cards px-6 py-12 mb-7">
         <h1 class="text-white poppins text-2xl font-bold">Media Handling.</h1>
         <svg width="36" height="35" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
