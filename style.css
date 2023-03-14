@@ -53,4 +53,7 @@
         position: absolute;
       }
 
+      .height{
+        height: 100vh;
+      }
   }
