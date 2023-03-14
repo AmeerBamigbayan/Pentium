@@ -41,6 +41,13 @@
         background-repeat: no-repeat;
         
       }
+
+      .mobile-bg{
+        background-image: url(img/bg-mobile.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+      }
       .top1 {
         top: 176px;
     }
