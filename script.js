@@ -951,6 +951,7 @@ tailwind.config = {
         colors: {
           clifford: '#da373d',
           main: '#ff007a',
+          cards: '#1e1e1e',
         }
       }
     }
