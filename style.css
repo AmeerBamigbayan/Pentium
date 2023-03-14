@@ -76,4 +76,13 @@
       .height{
         height: 100vh;
       }
+      
+        .gap-b {
+          gap: 5.5rem/* 128px */;
+      }
+
+      .gap-c {
+        gap: 4.6rem/* 80px */;
+    }
+      
   }
