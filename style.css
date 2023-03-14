@@ -84,6 +84,13 @@
       .gap-c {
         gap: 4.6rem/* 80px */;
     }
+    .-mt {
+      margin-top: -29.1rem/* -384px */;
+  }
+
+  .mr-2 {
+    margin-left: 66.3rem/* 40px */;
+}
 
 
   }
