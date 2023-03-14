@@ -37,17 +37,19 @@
         background-repeat: no-repeat;
         
       }
-      .top-90{
-        top: 330px;
-        position: absolute;
+      .top1 {
+        top: 176px;
+    }
+      .top2{
+        top: 225px;
+        
       }
-      .top-100{
-        top: 370px;
-        position: absolute;
+      .top3{
+        top: 270px;
       }
 
       .top-c{
-        top: 27rem;
+        top: 20rem;
         position: absolute;
       }
 
