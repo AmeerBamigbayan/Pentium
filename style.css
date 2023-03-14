@@ -37,7 +37,7 @@
      }
       .bg-image{
         background-image: url(img/bg.jpg);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         
       }
