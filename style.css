@@ -94,21 +94,21 @@
 
    .about-img1{
        background-image: url(img/about1.png);
-        background-size: 135%;
+        background-size: 150%;
         background-repeat: no-repeat;
 
    }
 
    .about-img2{
     background-image: url(img/about2.png);
-     background-size: contain;
+     background-size: auto;
      background-repeat: no-repeat;
      
    }
 
    .about-img3{
     background-image: url(img/about3.png);
-     background-size: contain;
+     background-size: auto;
      background-repeat: no-repeat;
    }
 
