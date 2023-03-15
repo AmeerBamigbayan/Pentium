@@ -93,7 +93,10 @@
 }
 
    .about-img1{
-       background-image: url();
+       background-image: url(img/about1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+
    }
 
 
