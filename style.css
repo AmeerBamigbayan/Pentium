@@ -94,9 +94,22 @@
 
    .about-img1{
        background-image: url(img/about1.png);
-        background-size: contain;
+        background-size: 97vh;
         background-repeat: no-repeat;
 
+   }
+
+   .about-img2{
+    background-image: url(img/about2.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     
+   }
+
+   .about-img3{
+    background-image: url(img/about3.png);
+     background-size: contain;
+     background-repeat: no-repeat;
    }
 
 
