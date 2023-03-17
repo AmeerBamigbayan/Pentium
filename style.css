@@ -7,6 +7,21 @@
     src: url('Rage.ttf') format('truetype');
   }
 
+  /*=============== Animation ===============*/
+body [data-aos-delay='1000'][data-aos].aos-animate,
+[data-aos][data-aos][data-aos-delay='1000'].aos-animate {
+    transition-delay: 1s;
+}
+body [data-aos-delay='2000'][data-aos].aos-animate,
+[data-aos][data-aos][data-aos-delay='2000'].aos-animate {
+    transition-delay: 2s;
+}
+body [data-aos-delay='3000'][data-aos].aos-animate,
+[data-aos][data-aos][data-aos-delay='3000'].aos-animate {
+    transition-delay: 3s;
+}
+
+
 @layer utilities {
     .content-auto {
       content-visibility: auto;
